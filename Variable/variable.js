@@ -6,7 +6,7 @@ let count = 100;//let cannot be Redeclared
 console.log(count)
 
 
-var myAge = 20;
+var myAge = 19;
 
 console.log(myAge);
 
