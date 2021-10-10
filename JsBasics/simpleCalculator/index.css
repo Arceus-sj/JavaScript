@@ -1,0 +1,12 @@
+#num1-el, #num2-el {
+    border: 1px solid #000;
+    padding: 1px 50px;
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+button {
+    margin: 10px;
+    font-size: 1em;
+}
