@@ -23,4 +23,4 @@ let numberOfItems = 10;
 
 
 
-console.log(fibonacciGenerator(10));
+console.log(fibonacciGenerator(numberOfItems));
