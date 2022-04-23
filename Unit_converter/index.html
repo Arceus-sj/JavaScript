@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="inputBox">
+            <h1 class="header">Metric/Imperial unit conversion</h1>
+            <!-- <input type="text" id="number" class="numberInput" placeholder="Enter number" oninput="unitConverter()" > -->
+            <textarea name="number" id="number" class="numberInput" cols="1" rows="1" placeholder="0" oninput="unitConverter()"></textarea>
+        </div>
+
+        <div class="resultBox">
+            <div class="convertArea" id="length-area">
+                <h2 class="convertHeader">Length (Meter/Feet)</h2>
+                <p id="res1">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+            </div>
+            <div class="convertArea" id="volume-area">
+                <h2 class="convertHeader">Volume (Liters/Gallons)</h2>
+                <p id="res2">0 liters = 0.000 gallons | 0 gallons = 0.000 liters</p>
+            </div>
+            <div class="convertArea" id="mass-area"> 
+                <h2 class="convertHeader">Mass (Kilograms/Pounds)</h2>
+                <p id="res3">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</p>
+            </div>
+            
+            
+           
+        </div>
+        
+       
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
