@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>This keyword example</title>
+  </head>
+  <body>
+    <button>BTN-1</button>
+    <button>BTN-2</button>
+    <button>BTN-3</button>
+    <button>BTN-4</button>
+    <button>BTN-5</button>
+    
+    <script>
+      let btn = document.querySelectorAll('button');
+
+      for(let i = 0; i < 5; i++) {
+        btn[i].addEventListener('click', function () {
+          this.style.color = "red";
+        });  
+      }
+
+    </script>
+  </body>
+</html>
