@@ -9,3 +9,11 @@ let a = arr.map((value) => {
 })
 
 console.log(a);
+
+
+const users = [
+    {name: "Varun", age: 21},
+    {name: "Kartic", age: 22},
+    {name: "Mayank", age: 21},
+    {name: "Diana", age: 20}
+];
